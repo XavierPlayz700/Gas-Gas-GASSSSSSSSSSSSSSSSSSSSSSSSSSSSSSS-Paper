@@ -49,7 +49,7 @@ function draw() {
 function keyPressed () {
 
 	// This code really makes the paper fly away so fast that it went past the canvas in the blink of an eye :o
-	// This shouldn't be actually named "Crumpled Bally", it shuld be named "Sonic the Paperhog (Hedgehog)" XD 
+	// This shouldn't be actually named "Crumpled Bally", it should be named "Sonic the Paperhog (Hedgehog)" XD 
 	if (keyCode === UP_ARROW){
 		Body.applyForce(paper.body, paper.body.position, {x : 130, y : -145});
 	}
