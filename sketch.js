@@ -26,6 +26,7 @@ function setup() {
 	paper = new ThrowPaper(200, 300);
 
 	gas.loop();
+	gas.setVolume(0.5);
 
 	Engine.run(engine);
   
