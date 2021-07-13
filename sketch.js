@@ -8,6 +8,7 @@ var dustbinObj,groundObject, paper;
 var world, gas;
 
 function preload () {
+    // Let's encourage the paper to go Sonic Speed :D	
     gas = loadSound("yt1s.com - MANUEL  GAS GAS GASOfficial Lyric Video頭文字DINITIAL D.mp3");
 }
 
